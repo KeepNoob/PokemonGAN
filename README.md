@@ -12,6 +12,7 @@ conda activate stylegan3
 ```
 In case, there are some package problem please refer to [Nvidia Stylegan3](https://github.com/NVlabs/stylegan3) 
 Notice that in case you are using Windows, please shall not use Visual Studio 2022 as your C++ (MSVC) runtime libraries beceasue it will occur error during network building process.
+
 *My Personal PC Setup*
 > CPU: i5-12600KF
 > GPU: RTX 3070 Ti
