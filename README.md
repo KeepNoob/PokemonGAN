@@ -15,7 +15,7 @@ Notice that in case you are using Windows, please shall not use Visual Studio 20
 All the data within this mini project are obtained from [Pokémon Database](https://pokemondb.net/pokedex/national) using a webscraping python script.
 And do some process to those images such as Stylegan3 only support RGB 3 channels images but not RGBA. So converting to RGB mode is a must. Moreover, there exists some duplicated images. However, after trying to delete all duplicated images, the problem still exist. 
 ```Python
--python download.py
+-python Download.py
 -python RM_Duplicate.py
 ```
 Notice that the download script will be stopped at the last few pokemon "Wyrdeer" as the website directory pokemondb.net/artwork/urshifu does not exist.
