@@ -10,7 +10,12 @@ cd PokemonGAN
 conda create --name <env> --file requirements.txt
 conda activate stylegan3
 ```
+In case, there are some package problem please refer to [Nvidia Stylegan3](https://github.com/NVlabs/stylegan3) 
 Notice that in case you are using Windows, please shall not use Visual Studio 2022 as your C++ (MSVC) runtime libraries beceasue it will occur error during network building process. 
+*My Personal PC Setup*
+> CPU: i5-12600KF
+> GPU: RTX 3070 Ti
+> RAM: 32 GB
 ## Dataset
 All the data within this mini project are obtained from [Pokémon Database](https://pokemondb.net/pokedex/national) using a webscraping python script.
 And do some process to those images such as Stylegan3 only support RGB 3 channels images but not RGBA. So converting to RGB mode is a must. Moreover, there exists some duplicated images. However, after trying to delete all duplicated images, the problem still exist. And it is observed that the problem is due to image size different. If one is 300x256 and the other is 400x520, they could display same picture but the hash value is certainly different.  
