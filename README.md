@@ -43,7 +43,7 @@ python train.py --outdir=training-runs --cfg=stylegan3-t --data=dataset/PokePic-
 ## Example
 Real
 ![Real](Picture/reals.png)
-Fake only pass through 120 iterations
+Fake only pass through 3150 iterations
 ![Fake_3150](Picture/fakes003150-min.png)
 Due to limited time and computing power, it is hard to train the model in a satisfied iterations. It is an on going process, if I have enough time, I will resume my model training.  
 
